@@ -1,3 +1,4 @@
+import Acomodacao from "@/widgets/Acomodacoes";
 import BarraPesquisa from "@/widgets/BarraPesquisa";
 import BarraSuperior from "@/widgets/BarraSuperior";
 import Navegacaoabashorizontal from "@/widgets/Navegacaoabashorizontal";
@@ -14,6 +15,7 @@ export default function Home() {
 
     <main className="container mx-auto">
       <Navegacaoabashorizontal/>
+      <Acomodacao/>
     </main>
     
     <footer className="container mx-auto">
